@@ -5,7 +5,6 @@ import { IoCheckmarkDoneCircle } from "react-icons/io5";
 import { useContext } from "react";
 import { AuthContext } from "./Authcontext";
 import { Link } from "react-router-dom";
-import { RxCrossCircled } from "react-icons/rx";
 import { Navbar } from "../Navbar";
 
 export const Signup = () => {
@@ -48,8 +47,8 @@ export const Signup = () => {
 
   return (
     <div className="signup bg-[#f0f8ff] mb-[0px]flex flex-col justify-center text-center">
-      <Navbar/>
-      <p className="font-bold font-2xl m-2">Sign in or create your account</p>
+      <Navbar />
+      <p className="font-bold font-2xl mt-20">Sign in or create your account</p>
       <div className="m-2">
         <p className="font-xl">Not sure if you have an account?</p>
         <p className="font-xl">Enter your email and we'll check for you.</p>
@@ -74,16 +73,16 @@ export const Signup = () => {
         />
         <br />
         <button
-          className="bg-orange-500 m-auto text-white p-3 rounded-full w-[300px]"
+          className="bg-orange-500 m-5 text-white p-3 rounded-full w-[300px]"
           type="submit"
         >
           Submit
         </button>
       </form>
-      <p>
+      <p className="mt-2">
         Already a user
         <Link to="/Login">
-          <span className="underline text-orange-500"> Click Here</span>{" "}
+          <span className="underline text-orange-500 "> Click Here</span>{" "}
         </Link>
         to login
       </p>
