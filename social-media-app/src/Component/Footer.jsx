@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 export const Footer = () => {
   return (
     <>
-      <footer className="bg-orange-400 pt-4  ml-[15%] h-[350px]">
+      <footer className="bg-orange-400 pt-4  ml-[15%] h-[280px]">
         <div className="container bg-orange-400 mx-auto px-4">
           <div className="bg-orange-400 flex flex-wrap text-left lg:text-left">
             <div className="bg-orange-400 w-full lg:w-6/12 px-4">
