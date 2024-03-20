@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 export const Footer = () => {
   return (
     <>
-      <footer className="bg-orange-400 pt-4 pb-6 ml-[15%] h-[390px]">
+      <footer className="bg-orange-400 pt-4  ml-[15%] h-[350px]">
         <div className="container bg-orange-400 mx-auto px-4">
           <div className="bg-orange-400 flex flex-wrap text-left lg:text-left">
             <div className="bg-orange-400 w-full lg:w-6/12 px-4">
@@ -57,7 +57,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <p className="bg-orange-400  font-bold flex justify-center text-2xl mb-[-20px] text-center items-center text-black">
+        <p className="bg-orange-400  font-bold flex justify-center text-2xl  text-center items-center text-black">
           @Copyright Made with love by Sky coders
         </p>
       </footer>
