@@ -57,7 +57,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <p className="bg-orange-400  font-bold flex justify-center text-2xl mx-5  text-center items-center text-black">
+        <p className="bg-orange-400  font-bold flex justify-center text-2xl mx-[-20px] text-center items-center text-black">
           @Copyright Made with love by Sky coders
         </p>
       </footer>
