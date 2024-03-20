@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { GrLike } from "react-icons/gr";
 import { FaRegUserCircle } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
