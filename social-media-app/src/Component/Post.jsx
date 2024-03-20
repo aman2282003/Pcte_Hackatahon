@@ -16,7 +16,7 @@ export const Post = () => {
   const { isAuth } = useContext(AuthContext);
   useEffect(() => {
     axios
-      .get("http://localhost:3000/data")
+      .get("https://server-hackthon.onrender.com/data")
       .then((response) => {
         setPosts(response.data);
         // Initialize likes with random values based on the number of posts
